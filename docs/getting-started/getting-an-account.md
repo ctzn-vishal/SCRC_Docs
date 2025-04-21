@@ -1,10 +1,3 @@
-```markdown
----
-title: "Getting an SCRC Account"
-category: "getting-started"
-description: "Instructions for obtaining an SCRC account for Stern users, non-Stern NYU users, and non-NYU collaborators."
----
-
 # Getting an SCRC Account
 
 This guide provides instructions for obtaining access to the NYU Stern Center for Research Computing (SCRC) resources. SCRC uses Stern accounts (NetID and password) for authentication. The process differs depending on your affiliation with NYU and the Stern School of Business.
@@ -61,4 +54,3 @@ Users who are not affiliated with NYU (e.g., external collaborators) must first 
 *   **Requirement:** An active NYU NetID (obtained in Step 1) and sponsorship from a full-time Stern employee (this may be the same sponsor as in Step 1).
 *   **Process:** Once you have your NYU NetID, your Stern sponsor must follow the process outlined above for **Non-Stern NYU Users** to request Stern account access for you. They will need to contact the Stern IT Help Desk with the required information (Full Name, NYU NetID, N#, DOB, Sponsor Name, Department, Expiration Date).
 *   **Action:** After the Stern account is created, you must [activate your Stern account](http://start.stern.nyu.edu) before you can use SCRC services.
-```

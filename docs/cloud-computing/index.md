@@ -1,10 +1,3 @@
-```markdown
----
-title: "Cloud Computing"
-category: "cloud-computing"
-description: "Documentation about Virtual machines, cloud services, resource requests"
----
-
 # Cloud Computing
 
 Welcome to the Cloud Computing section of the SCRC documentation. This area provides resources and guides for utilizing the cloud computing services offered by SCRC, specifically focusing on our private cloud environment and virtual machines (VMs).
@@ -25,4 +18,3 @@ Below is a list of available topics within the Cloud Computing category.
     *   Introduction to Stern's private cloud computing environment, its benefits, and general use cases.
 *   **[Requesting a Virtual Machine](./requesting-virtual-machines.md)**
     *   How to request a dedicated virtual machine (VM) for specialized research needs.
-```

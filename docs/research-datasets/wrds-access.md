@@ -1,10 +1,3 @@
-```markdown
----
-title: "Accessing WRDS (Wharton Research Data Services)"
-category: "research-datasets"
-description: "How to request and manage a WRDS account to access various financial and business datasets."
----
-
 # Accessing WRDS (Wharton Research Data Services)
 
 Wharton Research Data Services (WRDS) is an internet-based business data research service from The Wharton School of the University of Pennsylvania. It provides access to a wide array of historical financial, accounting, banking, economics, management, marketing, and public policy databases through a uniform web interface. This page outlines how NYU Stern users can access WRDS resources.
@@ -79,4 +72,3 @@ NYU faculty, administrators, staff, and students are eligible to apply for a WRD
     *   Log in to the WRDS website.
     *   Click the **Contact** or **Support** button (usually found at the top or bottom of the page).
     *   Complete and submit the support request form directly to the WRDS team.
-```

@@ -1,0 +1,63 @@
+site_name: SCRC Documentation
+site_url: https://ctzn-vishal.github.io/SCRC_Docs/
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.footer
+    - header.autohide
+    - navigation.path
+    - content.action.edit
+    - content.action.view
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/getting-started-overview.md
+      - Getting an SCRC Account: getting-started/getting-an-account.md
+      - Connecting to SCRC Clusters: getting-started/connecting-to-clusters.md
+      - SCRC vs NYU HPC: getting-started/scrc-vs-nyu-hpc.md
+  - Computing Resources:
+      - Overview: computing-resources/index.md
+      - Slurm Overview and Commands: computing-resources/slurm-overview-commands.md
+      - Submitting Batch Jobs: computing-resources/submitting-batch-jobs.md
+      - Slurm Array Jobs: computing-resources/slurm-array-jobs.md
+      - Interactive Jobs (FastX): computing-resources/running-interactive-jobs-fastx.md
+      - Interactive Sessions (srun): computing-resources/starting-interactive-sessions-srun.md
+      - Hardware Specifications: computing-resources/hardware-specifications.md
+  - Storage Solutions:
+      - Overview: storage-solutions/index.md
+      - Home and Bigdata Directories: storage-solutions/home-and-bigdata-directories.md
+      - Transferring Files: storage-solutions/transferring-files.md
+  - Research Datasets:
+      - Overview: research-datasets/index.md
+      - WRDS Access: research-datasets/wrds-access.md
+      - Available Datasets: research-datasets/available-datasets.md
+  - Software and Applications:
+      - Overview: software-and-applications/index.md
+      - Software Modules System: software-and-applications/software-modules-system.md
+      - Python Virtual Environments: software-and-applications/python-virtual-environments.md
+      - R Virtual Environments: software-and-applications/r-virtual-environments.md
+      - Installing Local R Packages: software-and-applications/installing-r-packages.md
+  - Linux Tutorials:
+      - Overview: linux-tutorials/index.md
+      - Basic Linux Commands: linux-tutorials/basic-linux-commands.md
+      - File Permissions: linux-tutorials/file-permissions.md
+      - Linux Pipes and Redirection: linux-tutorials/linux-pipes-redirection.md
+  - Cloud Computing:
+      - Overview: cloud-computing/cloud-computing-overview.md
+      - Requesting Virtual Machines: cloud-computing/requesting-virtual-machines.md

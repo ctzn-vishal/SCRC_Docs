@@ -1,10 +1,3 @@
-```markdown
----
-title: "Software And Applications"
-category: "software-and-applications"
-description: "Guides on finding, managing, and using software on SCRC resources, including the modules system and virtual environments."
----
-
 # Software And Applications
 
 Welcome to the Software and Applications section of the SCRC documentation! This is your central hub for understanding how to access, manage, and effectively utilize the diverse range of software available on our computing resources.
@@ -39,4 +32,3 @@ Guides for running graphical applications like RStudio, XStata, and Anaconda/Jup
 
 ### [Using Apps@Stern](./apps-at-stern.md)
 Information on accessing certain academic software titles virtually through the NYU Stern Apps@Stern service.
-```

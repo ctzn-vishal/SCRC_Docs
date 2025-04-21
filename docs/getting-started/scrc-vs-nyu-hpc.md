@@ -1,10 +1,3 @@
-```markdown
----
-title: "SCRC vs NYU HPC"
-category: "getting-started"
-description: "Guidance on choosing between Stern's SCRC resources and the central NYU High Performance Computing facilities."
----
-
 # SCRC vs NYU HPC
 
 This page provides guidance to help you decide whether to use the computing resources provided by the NYU Stern Center for Research Computing (SCRC) or the central NYU High Performance Computing (HPC) facilities.
@@ -59,4 +52,3 @@ Here's a breakdown of factors to consider when making your choice:
 ## Getting Help
 
 The SCRC staff can help you evaluate your computational needs and guide you in selecting the most suitable facility, whether it's SCRC or NYU HPC. Contact the SCRC team at `scrc-list@stern.nyu.edu` for consultation.
-```

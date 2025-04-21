@@ -1,10 +1,3 @@
-```markdown
----
-title: "Getting Started Overview"
-category: "getting-started"
-description: "Initial steps for new users after obtaining an account and logging in for the first time."
----
-
 # Getting Started Overview
 
 This guide outlines the essential first steps for new users after obtaining an SCRC account and logging into the SCRC environment for the first time via SSH. It covers the initial environment setup and basic commands to verify your access.
@@ -66,4 +59,3 @@ Now that you have successfully logged in and verified your home directory, you c
 *   Learn more essential commands in the [Linux Tutorial](./linux-tutorial.md).
 *   Understand how to [Transfer Files](./transferring-files.md) between your local machine and SCRC.
 *   Learn about submitting jobs using the [Slurm Workload Manager](./slurm-overview.md).
-```

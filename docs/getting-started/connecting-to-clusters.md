@@ -1,10 +1,3 @@
-```markdown
----
-title: "Connecting to SCRC Clusters"
-category: "getting-started"
-description: "How to connect to SCRC login nodes using SSH from different operating systems, including VPN requirements."
----
-
 # Connecting to SCRC Clusters
 
 This guide explains how to connect to the NYU Stern Center for Research Computing (SCRC) cluster login nodes using a Secure Shell (SSH) connection from various operating systems (Mac, Linux, Windows). It also covers the requirement for using the NYU VPN when connecting from off-campus.
@@ -89,4 +82,3 @@ Windows users have several options for connecting via SSH:
     *   At the `password:` prompt, type your Stern password and press Enter. (The password will not be shown as you type).
 
 You should now be logged into the SCRC cluster and see a command line prompt (e.g., `[your_netid@rnd ~]$`). You can now enter Linux commands.
-```

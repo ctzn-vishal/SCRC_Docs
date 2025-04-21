@@ -1,9 +1,3 @@
-```markdown
----
-title: "SCRC Documentation"
-description: "Documentation for the NYU Stern Center for Research Computing resources and services"
----
-
 # NYU Stern Center for Research Computing (SCRC) Documentation
 
 Welcome to the official documentation for the NYU Stern Center for Research Computing (SCRC). SCRC provides advanced computing resources, large-scale storage solutions, specialized research datasets, and essential software tailored to support the diverse research needs of the NYU Stern School of Business community – faculty, researchers, and students.
@@ -34,4 +28,3 @@ New to SCRC? We recommend starting here! These guides will walk you through the 
 4.  **[SCRC vs NYU HPC](./getting-started/scrc-vs-nyu-hpc.md)**: Understand the differences between Stern-specific and university-wide computing resources.
 
 We encourage you to explore the documentation relevant to your research needs. If you have questions or require assistance, please consult the support resources outlined within these pages or contact the SCRC team directly.
-```

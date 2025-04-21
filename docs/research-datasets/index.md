@@ -1,10 +1,3 @@
-```markdown
----
-title: "Research Datasets"
-category: "research-datasets"
-description: "Documentation about Available datasets, access methods, WRDS integration"
----
-
 # Research Datasets
 
 Welcome to the Research Datasets section of the SCRC documentation. This area is dedicated to helping you discover, access, and utilize the extensive collection of research datasets available to support your work. Whether you're conducting financial analysis, exploring market trends, or investigating economic indicators, this guide provides the essential information you need.
@@ -27,5 +20,3 @@ Below are the specific guides available within this section. Each page provides 
 
 *   ### [Accessing WRDS (Wharton Research Data Services)](./wrds-access.md)
     How to request and manage a WRDS account to access various financial and business datasets.
-
-```

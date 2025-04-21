@@ -1,10 +1,3 @@
-```markdown
----
-title: "Linux Tutorials"
-category: "linux-tutorials"
-description: "Learn the fundamentals of using the Linux command line, including basic commands, file operations, and permissions."
----
-
 # Linux Tutorials
 
 Welcome to the Linux Tutorials section! If you're new to using the command line interface (CLI) on Linux systems, or just need a refresher, you've come to the right place. This collection of tutorials provides a foundation for navigating and interacting with the Linux environment commonly used within the SCRC.
@@ -35,4 +28,3 @@ Browse the topics below to get started:
     *   Useful command line features like command history, auto-completion, online help (`man`), and basic cursor control.
 
 We recommend working through these tutorials sequentially if you are new to Linux. Feel free to jump to specific topics if you need help with a particular command or concept.
-```

@@ -1,10 +1,3 @@
-```markdown
----
-title: "Available Datasets Overview"
-category: "research-datasets"
-description: "A summary of major research datasets available through SCRC and WRDS, including financial, marketing, and economic data."
----
-
 # Available Datasets Overview
 
 This document provides a summary of major research datasets available to the NYU Stern community through the Stern Center for Research Computing (SCRC) and Wharton Research Data Services (WRDS). These datasets cover a wide range of financial, marketing, and economic data.
@@ -266,4 +259,3 @@ NYU faculty, administrators, staff, and students may apply for a WRDS account. N
     *   Refinitiv Workspace: Incorporated with Datastream.
 *   **Links:**
     *   [Worldscope Fundamentals Overview (commercial website)](https://www.lseg.com/en/products-services/market-data/worldscope)
-```
