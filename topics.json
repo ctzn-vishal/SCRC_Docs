@@ -1,0 +1,437 @@
+[
+  {
+    "category": "getting-started",
+    "title": "Getting an SCRC Account",
+    "filename": "getting-an-account.md",
+    "description": "Instructions for obtaining an SCRC account for Stern users, non-Stern NYU users, and non-NYU collaborators.",
+    "content_markers": [
+      "# Getting an Account",
+      "## Stern users",
+      "## Non-Stern NYU users",
+      "## Non-NYU users"
+    ]
+  },
+  {
+    "category": "getting-started",
+    "title": "Connecting to SCRC Clusters",
+    "filename": "connecting-to-clusters.md",
+    "description": "How to connect to SCRC login nodes using SSH from different operating systems, including VPN requirements.",
+    "content_markers": [
+      "# Accessing SCRC Clusters",
+      "## Log in to a Terminal Command Line Interface",
+      "## If Off Campus, First Connect to the NYU VPN",
+      "## Log in From Mac/Linux",
+      "## Log in From Windows",
+      "### Getting and using PuTTy"
+    ]
+  },
+  {
+    "category": "getting-started",
+    "title": "SCRC vs NYU HPC",
+    "filename": "scrc-vs-nyu-hpc.md",
+    "description": "Guidance on choosing between Stern's SCRC resources and the central NYU High Performance Computing facilities.",
+    "content_markers": [
+      "**Should I use SCRC or NYU HPC?**"
+    ]
+  },
+  {
+    "category": "getting-started",
+    "title": "Getting Started Overview",
+    "filename": "getting-started-overview.md",
+    "description": "Initial steps for new users after obtaining an account and logging in for the first time.",
+    "content_markers": [
+      "**How do I get started with SCRC?**",
+      "Upon your first login, your home directory will be automatically created"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Slurm Overview and Common Commands",
+    "filename": "slurm-overview-commands.md",
+    "description": "Introduction to the Slurm workload manager and descriptions of essential commands like sbatch, squeue, sinfo, srun, and scancel.",
+    "content_markers": [
+      "# Common SLURM Commands",
+      "| Command  | Usage                  | Description                                   | Example                    |",
+      "`sbatch`",
+      "`squeue`",
+      "`sinfo`",
+      "`srun`",
+      "`scancel`"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Submitting Batch Jobs",
+    "filename": "submitting-batch-jobs.md",
+    "description": "Detailed guide on creating Slurm batch scripts (.sbatch files) and submitting non-interactive jobs to the cluster.",
+    "content_markers": [
+      "## Running as Slurm batch job",
+      "`sbatch hello-world.sbatch`",
+      "# Python Simple Job Tutorial",
+      "### Creating the Slurm Script",
+      "### Executing the Slurm Script",
+      "# SAS Tutorial",
+      "**Example SLURM Script (`crosstab.sbatch`):**",
+      "**Running the script:**",
+      "# MATLAB GPU Tutorial",
+      "### Slurm Script (`gpu-bench.sbatch`)",
+      "sbatch gpu-bench.sbatch"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Running Interactive Jobs with FastX",
+    "filename": "running-interactive-jobs-fastx.md",
+    "description": "How to use FastX to start interactive graphical sessions on the cluster, connect via browser or client, and launch applications.",
+    "content_markers": [
+      "# Getting Started with Slurm Interactive Jobs",
+      "## Accessing FastX",
+      "## Connecting with the FastX Client: Option 1",
+      "## Connecting with the FastX Client: Option 2",
+      "## Using FastX in a Browser",
+      "## Using Modules with FastX"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Starting Interactive Compute Sessions (srun)",
+    "filename": "starting-interactive-sessions-srun.md",
+    "description": "Using the 'srun' command to allocate resources and start interactive command-line sessions on compute nodes.",
+    "content_markers": [
+      "## Logging in to an interactive node",
+      "`srun --pty --mem=8gb --time=1:00:00 --cpus-per-task=1 --nodes=1 /bin/bash`"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Slurm Array Jobs",
+    "filename": "slurm-array-jobs.md",
+    "description": "Explanation and examples of using Slurm array jobs to run multiple similar tasks efficiently.",
+    "content_markers": [
+      "# Python Array Job Tutorial",
+      "### Slurm Script (`realVol.sbatch`)",
+      "`#SBATCH --array=1-5`",
+      "`${SLURM_ARRAY_TASK_ID}`",
+      "# R Fitspline Tutorial",
+      "### Slurm Script (`fitspline.sbatch`)",
+      "`sbatch --array=5-15:5 fitspline.sbatch`"
+    ]
+  },
+  {
+    "category": "computing-resources",
+    "title": "Hardware Specifications",
+    "filename": "hardware-specifications.md",
+    "description": "Details about the computing hardware available at SCRC, including cloud server specifications and network infrastructure.",
+    "content_markers": [
+      "### Hardware Specifications",
+      "#### Cloud Servers",
+      "tiffany:",
+      "einstein:",
+      "hawking:",
+      "nobel:",
+      "#### Other Hardware"
+    ]
+  },
+  {
+    "category": "storage-solutions",
+    "title": "Home and Bigdata Directories",
+    "filename": "home-and-bigdata-directories.md",
+    "description": "Information about user home directories and the 'bigdata' storage space for large datasets, including how to request it.",
+    "content_markers": [
+      "## Your Home Directory",
+      "`/homedir/employees/c/ct27`",
+      "Note: Always create virtual environments in your `bigdata` directory.",
+      "If you do not have a `bigdata` directory, email `scrc-list@stern.nyu.edu` to request one.",
+      "**I have a large dataset, where should I put it?**",
+      "designated space called `bighome`"
+    ]
+  },
+  {
+    "category": "storage-solutions",
+    "title": "Transferring Files",
+    "filename": "transferring-files.md",
+    "description": "Instructions for transferring files between your local computer and SCRC servers using FileZilla.",
+    "content_markers": [
+      "# Transferring Files from Local to Remote Linux Server",
+      "**Using FileZilla (Windows, Linux, and Mac):**"
+    ]
+  },
+  {
+    "category": "research-datasets",
+    "title": "Accessing WRDS (Wharton Research Data Services)",
+    "filename": "wrds-access.md",
+    "description": "How to request and manage a WRDS account to access various financial and business datasets.",
+    "content_markers": [
+      "# WRDS",
+      "Wharton Research Database Services",
+      "**How do I get a WRDS account?**",
+      "Requesting an account:",
+      "Visit Wharton Research Database Services",
+      "Click on the Register button",
+      "WRDS Introduction (includes how to get an account)",
+      "WRDS Website (to request an account or to login)",
+      "WRDS Without Account"
+    ]
+  },
+  {
+    "category": "research-datasets",
+    "title": "Available Datasets Overview",
+    "filename": "available-datasets-overview.md",
+    "description": "A summary of major research datasets available through SCRC and WRDS, including financial, marketing, and economic data.",
+    "content_markers": [
+      "## Datasets",
+      "### Bank Regulatory (formerly FDIC)",
+      "### Bloomberg",
+      "### BoardEx",
+      "### Capital IQ Datafeeds",
+      "### Compustat",
+      "### CRSP",
+      "### Datastream",
+      "### Dealscan",
+      "### Dow Jones Averages",
+      "### Federal Reserve Bank Reports",
+      "### I/B/E/S",
+      "### IBES Guidance",
+      "### IRI",
+      "### ISS: Institutional Shareholder Services",
+      "### Mergent-FISD",
+      "### NASTRAQ",
+      "### NYSE TAQ",
+      "### SDC",
+      "### SEC Order Execution",
+      "### Thompson/Refinitiv",
+      "### WorldScope Fundamentals"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Using the Software Modules System",
+    "filename": "software-modules-system.md",
+    "description": "How to use the 'module' command to find, load, and unload available software packages on the SCRC clusters.",
+    "content_markers": [
+      "## Using Modules with FastX",
+      "`module avail`",
+      "## Loading a module",
+      "`module load R/4.0.2`",
+      "The `module` command is used to manage environment modules",
+      "`module purge`",
+      "`module load`"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Python Virtual Environments",
+    "filename": "python-virtual-environments.md",
+    "description": "Creating, activating, and managing isolated Python environments to install and use specific package versions.",
+    "content_markers": [
+      "# Python Virtual Environment",
+      "## General Steps",
+      "## How to Create a Python virtual environment",
+      "`module load python/3.9.7`",
+      "`virtualenv ~/bigdata/05-virtenvs/py3.9`",
+      "`source ~/bigdata/05-virtenvs/py3.9/bin/activate`",
+      "`pip install`",
+      "`pip list`",
+      "`deactivate`"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Installing Local R Packages",
+    "filename": "installing-r-packages.md",
+    "description": "Instructions for installing R packages into your user library from CRAN, Bioconductor, and GitHub.",
+    "content_markers": [
+      "# Install Local R Packages",
+      "## Repositories",
+      "## Installing packages",
+      "### Installing from CRAN",
+      "`install.packages(\"package\")`",
+      "### Installing Bioconductor packages",
+      "`BiocManager::install`",
+      "### Installing GitHub (and other) packages via `devtools`",
+      "`devtools::install_github`",
+      "## Removing packages",
+      "## Updating Packages",
+      "## Using GUI to install packages"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Available Software Overview",
+    "filename": "available-software-overview.md",
+    "description": "A list of commonly used research software available at SCRC, including statistical packages, programming languages, and data analysis tools.",
+    "content_markers": [
+      "## Software",
+      "### Anaconda",
+      "### Eviews",
+      "### Filezilla",
+      "### Java",
+      "### Mathematica",
+      "### MATLAB",
+      "### Minitab",
+      "### Oracle Crystal Ball",
+      "### PuTTY",
+      "### Python",
+      "### Qualtrics",
+      "### R",
+      "### SAS and Enterprise Miner",
+      "### SPSS",
+      "### Stat/Transfer",
+      "### Stata"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Running GUI Applications (RStudio, XStata, Jupyter)",
+    "filename": "running-gui-apps-fastx.md",
+    "description": "Guides for running graphical applications like RStudio, XStata, and Anaconda/Jupyter notebooks within interactive sessions on SLURM.",
+    "content_markers": [
+      "# Run Anaconda/Jupyter Environment on SLURM",
+      "# Run RStudio on SLURM",
+      "# Run XStata on SLURM"
+    ]
+  },
+  {
+    "category": "software-and-applications",
+    "title": "Using Apps@Stern",
+    "filename": "apps-at-stern.md",
+    "description": "Information on accessing academic software virtually through the Apps@Stern service.",
+    "content_markers": [
+      "**What is Apps@Stern?**",
+      "Apps@Stern provides NYU Stern's students and faculty with virtual access",
+      "navigate to their website [here](link-to-apps-at-stern)"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Linux Introduction and Basic Navigation",
+    "filename": "linux-introduction-navigation.md",
+    "description": "Introduction to the Linux command line, shell prompt, basic commands like pwd, ls, cd, and understanding the directory structure.",
+    "content_markers": [
+      "# Linux Tutorial",
+      "The Linux machines use a command line interface called a Shell",
+      "command prompt",
+      "## Your Home Directory",
+      "### Show the present working directory",
+      "`pwd`",
+      "### Show contents of a directory",
+      "`ls -l`",
+      "### Create a sub-directory",
+      "`mkdir`",
+      "### Change to a subdirectory",
+      "`cd`",
+      "## The Linux File System",
+      "hierarchical file structure"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Linux File Operations",
+    "filename": "linux-file-operations.md",
+    "description": "Commands for creating, editing, copying, moving, renaming, and deleting files and directories.",
+    "content_markers": [
+      "### Create or edit a file",
+      "`nano`",
+      "## Linux Tutorial Continued Commands",
+      "`cp costdata.dat costdata.dat.bak`",
+      "`rm costdata.dat`",
+      "`mv costdata.dat.bak newcostdata.dat`",
+      "`mkdir study1`",
+      "`rmdir study1`",
+      "`rm costdata *`",
+      "The asterisk (`*`) is a wildcard character"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Viewing File Contents",
+    "filename": "linux-viewing-files.md",
+    "description": "Using commands like 'more', 'cat', 'head', and 'tail' to display the contents of text files.",
+    "content_markers": [
+      "### List the contents of a file",
+      "`more`",
+      "`cat`: display contents of a file",
+      "`head`: displays top lines of a file",
+      "`tail`: displays the last lines of a file"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Linux File Permissions",
+    "filename": "linux-file-permissions.md",
+    "description": "Understanding and modifying file and directory permissions using 'ls -l' and 'chmod'.",
+    "content_markers": [
+      "## File Permissions",
+      "Use `ls -l` to see what permissions",
+      "characters `d`, `r`, `w`, `x`, and `-`",
+      "owner",
+      "group",
+      "all users",
+      "### Changing File and Directory Permissions",
+      "`chmod` command"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Linux Pipes and Redirection",
+    "filename": "linux-pipes-redirection.md",
+    "description": "Using redirection symbols (>, >>) to control command output and pipes (|) to chain commands together.",
+    "content_markers": [
+      "## Redirecting Input and Output",
+      "right angle-bracket `>`",
+      "double right angle-bracket `>>`",
+      "## Pipes",
+      "vertical bar `|` called a pipe"
+    ]
+  },
+  {
+    "category": "linux-tutorials",
+    "title": "Linux Command Line Tips and Help",
+    "filename": "linux-command-line-tips.md",
+    "description": "Useful command line features like command history, auto-completion, online help (man), and basic cursor control.",
+    "content_markers": [
+      "### Auto Completion in the Shell",
+      "Press the `Tab` key",
+      "### Breaking out",
+      "`ctrl-c`",
+      "## Online Manual",
+      "`man` command",
+      "`man -k`",
+      "`--help` option",
+      "## Command History",
+      "pressing the up arrow",
+      "`ctrl-r`",
+      "## Basic Cursor Movement, Cut, Paste and Undo",
+      "`ctrl-a`",
+      "`ctrl-e`",
+      "`ctrl-k`",
+      "`ctrl-y`",
+      "`ctrl-_`"
+    ]
+  },
+  {
+    "category": "cloud-computing",
+    "title": "Cloud Computing Overview",
+    "filename": "cloud-computing-overview.md",
+    "description": "Introduction to Stern's private cloud computing environment, its benefits, and general use cases.",
+    "content_markers": [
+      "## Cloud Computing",
+      "### Getting started with Cloud Computing",
+      "private cloud computing environment",
+      "virtual machine",
+      "Benefits:"
+    ]
+  },
+  {
+    "category": "cloud-computing",
+    "title": "Requesting a Virtual Machine",
+    "filename": "requesting-virtual-machines.md",
+    "description": "How to request a dedicated virtual machine (VM) for specialized research needs.",
+    "content_markers": [
+      "### Requesting a Virtual Machine",
+      "small VMWARE cloud",
+      "send an emailto scrc-list@stern.nyu.edu",
+      "**How do I request a dedicated virtual machine?**"
+    ]
+  }
+]
