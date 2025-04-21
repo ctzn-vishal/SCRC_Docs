@@ -1,10 +1,3 @@
-```markdown
----
-title: "Slurm Overview and Common Commands"
-category: "computing-resources"
-description: "Introduction to the Slurm workload manager and descriptions of essential commands like sbatch, squeue, sinfo, srun, and scancel."
----
-
 # Slurm Overview and Common Commands
 
 This document provides an overview of the Slurm Workload Manager used on the NYU Stern Center for Research Computing (SCRC) clusters and details the usage of common Slurm commands essential for managing jobs.
@@ -194,5 +187,3 @@ scancel -t PENDING -u $USER
 
 # Cancel all jobs for the current user
 scancel -u $USER
-```
-```

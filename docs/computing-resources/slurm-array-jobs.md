@@ -1,10 +1,3 @@
-```markdown
----
-title: "Slurm Array Jobs"
-category: "computing-resources"
-description: "Explanation and examples of using Slurm array jobs to run multiple similar tasks efficiently."
----
-
 # Slurm Array Jobs
 
 This page explains how to use Slurm array jobs on the SCRC cluster. Array jobs provide an efficient mechanism for submitting and managing collections of similar jobs quickly and easily. They are particularly useful when you need to run the same program multiple times with different input parameters or datasets.
@@ -274,4 +267,3 @@ sbatch --array=5-15:5 fitspline.sbatch
 *   **Resource Allocation:** Resources specified with `#SBATCH` directives (like `--mem`, `--time`, `--cpus-per-task`) apply to *each task* in the array job individually.
 *   **Job Monitoring:** You can monitor array jobs using `squeue`. Tasks will often appear with an underscore and the task ID appended to the job ID (e.g., `12345_1`, `12345_2`).
 *   **Canceling Tasks:** You can cancel the entire array job (`scancel <JobID>`) or individual tasks (`scancel <JobID>_<TaskID>`).
-```

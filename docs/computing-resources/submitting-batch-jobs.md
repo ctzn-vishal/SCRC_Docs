@@ -1,10 +1,3 @@
-```markdown
----
-title: "Submitting Batch Jobs"
-category: "computing-resources"
-description: "Detailed guide on creating Slurm batch scripts (.sbatch files) and submitting non-interactive jobs to the cluster."
----
-
 # Submitting Batch Jobs
 
 This guide provides detailed instructions on how to create Slurm batch scripts (`.sbatch` files) and submit non-interactive jobs to the SCRC Slurm cluster. Batch jobs are ideal for computationally intensive tasks that do not require direct user interaction during execution.
@@ -376,4 +369,3 @@ You can check the status of your submitted jobs using the `squeue` command.
     ```
 
 For more details on monitoring and managing jobs, see the [Common SLURM Commands documentation](link-to-common-slurm-commands). To cancel a job, use `scancel <job_id>`.
-```

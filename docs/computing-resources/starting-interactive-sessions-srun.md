@@ -1,10 +1,3 @@
-```markdown
----
-title: "Starting Interactive Compute Sessions (srun)"
-category: "computing-resources"
-description: "Using the 'srun' command to allocate resources and start interactive command-line sessions on compute nodes."
----
-
 # Starting Interactive Compute Sessions (srun)
 
 This document describes how to use the `srun` command to request computational resources and start an interactive command-line session directly on a compute node within the SCRC Slurm cluster. Interactive sessions are useful for tasks like debugging code, running short tests, or using applications with graphical interfaces (via FastX).
@@ -103,4 +96,3 @@ exit
 *   **Do not run computationally intensive tasks directly on login nodes (`rnd`, `vleda`) or FastX nodes (`fx1`, `fx2`, `fx3`).** These nodes are shared resources for accessing the cluster, editing files, and submitting jobs. Use `srun` or `sbatch` to run computations on the compute nodes.
 *   Be realistic with resource requests (`--time`, `--mem`, `--cpus-per-task`). Requesting excessive resources may increase your wait time in the queue.
 *   Your interactive session will be terminated automatically when the requested `--time` limit is reached. Save your work frequently.
-```

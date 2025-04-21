@@ -1,10 +1,3 @@
-```markdown
----
-title: "Running Interactive Jobs with FastX"
-category: "computing-resources"
-description: "How to use FastX to start interactive graphical sessions on the cluster, connect via browser or client, and launch applications."
----
-
 # Running Interactive Jobs with FastX
 
 Using FastX with the Stern Slurm cluster provides fast and efficient remote access to graphical applications such as R-Studio, MATLAB, xStata, SAS, and more. This page explains how to access FastX, connect using the client or browser, and start an interactive session on a compute node.
@@ -139,4 +132,3 @@ The graphical application (e.g., RStudio) should now open in a new window manage
 
 *   To exit the interactive compute node session (`srun`), type `exit` in the terminal.
 *   To close the FastX session entirely, close the terminal window(s) and either close the FastX client application or log out from the FastX web interface. You can also manage (terminate) sessions from the FastX home page.
-```

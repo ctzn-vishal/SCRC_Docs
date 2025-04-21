@@ -1,10 +1,3 @@
-```markdown
----
-title: "Hardware Specifications"
-category: "computing-resources"
-description: "Details about the computing hardware available at SCRC, including cloud server specifications and network infrastructure."
----
-
 # Hardware Specifications
 
 This page provides details about the computing hardware resources available at the NYU Stern Center for Research Computing (SCRC). This includes specifications for cloud servers and information about the network and storage infrastructure.
@@ -34,4 +27,3 @@ Beyond the primary cloud servers, the SCRC infrastructure includes:
 
 *   **Network Switches:** NetGear 10GB switches are utilized to ensure high-speed intra-cluster and inter-cluster communication, facilitating efficient data transfer and parallel processing.
 *   **Storage:** The center employs both Network-Attached Storage (NAS) and Storage Area Network (SAN) devices, providing a total storage capacity exceeding 120 TB for research data. This includes the `bighome` directory space for large dataset storage.
-```
